@@ -1,0 +1,49 @@
+body{
+    background-color: brown;
+}
+
+.grid{
+    width: 600px;
+    height: 500px;
+    margin: 0 auto;
+    background-color: antiquewhite;
+    padding: 10px 50px 50px 50px;
+    border: 2x solid wheat;
+}
+
+.grid h1{
+    font-family: "sans-serif";
+    background-color: black;
+    text-align: center;
+    font-size: 60px;
+    color:whitesmoke;
+    padding: 2px 0px;
+}
+
+.grid #question{
+    font-size: 30px;
+    color: skyblue;
+    font-family: "monospace";
+}
+
+.buttons{
+    margin-top: 30px;
+}
+
+#btn0,#btn1,#btn2,#btn3{
+    background-color: skyblue;
+    width: 250px;
+    font-size: 20px;
+    border: 1px solid blue;
+    margin: 10px 40px 10px 0px;
+    padding: 10px 10px;
+} 
+
+#btn0:hover, #btn1:hover, #btn2:hover, #btn3:hover{
+    cursor:pointer;
+}
+
+#progress{
+    color: purple;
+    font-size: 18px;
+}
